@@ -2,7 +2,6 @@ package com.cursor.bookservice.service;
 
 import com.cursor.bookservice.model.Book;
 import com.cursor.bookservice.repository.BookRepository;
-import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
