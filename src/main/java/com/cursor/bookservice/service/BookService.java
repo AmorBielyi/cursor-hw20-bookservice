@@ -13,7 +13,7 @@ import java.util.Optional;
 public class BookService {
     private final BookRepository bookRepository;
 
-    public Book createBook(Book book) {
+    public Book addBook(Book book) {
         return bookRepository.save(book);
     }
 
