@@ -4,15 +4,17 @@ import com.cursor.bookservice.model.Book;
 import com.cursor.bookservice.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
 
+@Component
 @RequiredArgsConstructor
 public class BookServiceCLR implements CommandLineRunner {
 
     private final BookRepository bookRepository;
 
-
     @Override
     public void run(String... args) throws Exception {
+
         Book book1 = Book.builder()
                 .name("some book 1 name")
                 .releaseDate(2015)
