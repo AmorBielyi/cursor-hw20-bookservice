@@ -1,4 +1,4 @@
-package com.cursor.bookservice.models;
+package com.cursor.bookservice.model;
 
 
 import lombok.AllArgsConstructor;
